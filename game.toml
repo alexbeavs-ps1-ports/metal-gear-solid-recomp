@@ -1,0 +1,46 @@
+
+[game]
+name = "Metal Gear Solid"
+id = "SLES-01370"
+players = 1
+exe = "disc/sles_013.70"
+disc = "disc/Metal Gear Solid (Europe) (Disc 1).cue"
+load_address = "0x80010000"
+entry_pc = "0x80066A98"
+text_size = "0x00058800"
+stack_base = "0x801FFFF0"
+discs = ["disc/Metal Gear Solid (Europe) (Disc 1).cue", "disc/Metal Gear Solid (Europe) (Disc 2).cue"]
+disc_serials = ["SLES-01370", "SLES-11370"]
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Metal Gear Solid (Europe) (Disc 1).bin"
+cue_name = "Metal Gear Solid (Europe) (Disc 1).cue"
+boot_exe = "sles_013.70"
+known_sizes = [690577776]
+known_md5 = ["14f4ee17e61da6fed24569e409d1e6b7"]
+known_sha1 = ["d498a96150050e45681423d394de5ad36ba42497"]
+known_crc32 = ["dc3b2b4c"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Metal Gear Solid Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "2b44984906ca277fc180674101da75ce489e415a0ee2bc1e6308e601ad60809e"
