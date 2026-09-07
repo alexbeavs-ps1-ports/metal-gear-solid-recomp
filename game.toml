@@ -3,7 +3,7 @@
 name = "Metal Gear Solid"
 id = "SLES-01370"
 players = 1
-exe = "disc/sles_013.70"
+exe = "disc/SLES_013.70"
 disc = "disc/Metal Gear Solid (Europe) (Disc 1).cue"
 load_address = "0x80010000"
 entry_pc = "0x80066A98"
@@ -16,7 +16,7 @@ disc_serials = ["SLES-01370", "SLES-11370"]
 out_dir = "disc"
 bin_name = "Metal Gear Solid (Europe) (Disc 1).bin"
 cue_name = "Metal Gear Solid (Europe) (Disc 1).cue"
-boot_exe = "sles_013.70"
+boot_exe = "SLES_013.70"
 known_sizes = [690577776]
 known_md5 = ["14f4ee17e61da6fed24569e409d1e6b7"]
 known_sha1 = ["d498a96150050e45681423d394de5ad36ba42497"]

@@ -7,3 +7,5 @@ The shared archive gate now accepts only exact hashes for two intentional SDK pa
 Native CI and Windows package acceptance are pending.
 
 2026-09-07: Native canary gates required the existing PSX-BUILD-024 C-linkage correction and the exact public recomp-ui be8ac1d portable tool text fix. The package now carries all four complete public dependency identities (PSX-PUB-027). No game runtime behavior or recipe settings changed in this update. Native build and package checks remain required.
+
+2026-09-07: The Wipeout setup case finding also applies to this retained lowercase boot path. Actual preparation rejects sles_013.70 and succeeds for the ISO9660 entry SLES_013.70 with unchanged disc/program bytes. The portable boot path and generated filenames now use that exact case. No runtime setting or seed byte changed.
