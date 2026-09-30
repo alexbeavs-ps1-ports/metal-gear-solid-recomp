@@ -17,10 +17,19 @@ out_dir = "disc"
 bin_name = "Metal Gear Solid (Europe) (Disc 1).bin"
 cue_name = "Metal Gear Solid (Europe) (Disc 1).cue"
 boot_exe = "SLES_013.70"
-known_sizes = [690577776]
-known_md5 = ["14f4ee17e61da6fed24569e409d1e6b7"]
-known_sha1 = ["d498a96150050e45681423d394de5ad36ba42497"]
-known_crc32 = ["dc3b2b4c"]
+known_sizes = [690577776, 718324320]
+known_md5 = [
+  "14f4ee17e61da6fed24569e409d1e6b7",
+  "68695af6a80a5f6549fde7280bbe9e32",
+]
+known_sha1 = [
+  "d498a96150050e45681423d394de5ad36ba42497",
+  "ed25f748e4419bf2c68a496185537b966a942e1d",
+]
+known_crc32 = [
+  "dc3b2b4c",
+  "43e3b465",
+]
 
 [recompiler]
 bios_config = "psxrecomp/bios/SCPH5552.toml"
