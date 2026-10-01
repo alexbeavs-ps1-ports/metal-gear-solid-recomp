@@ -21,9 +21,9 @@ set(PSX_STATIC_RUNTIME ON CACHE BOOL "Portable runtime" FORCE)
 set(PSX_ENABLE_VULKAN ON CACHE BOOL "Vulkan renderer" FORCE)
 set(PSX_NETPLAY OFF CACHE BOOL "Accepted offline release" FORCE)
 set(PSX_SETUP_WIZARD ON CACHE BOOL "First-run setup" FORCE)
-set(PSXRECOMP_BIOS_STEMS "SCPH5552" CACHE STRING "Accepted BIOS" FORCE)
-set(PSXRECOMP_BIOS_STEM "SCPH5552" CACHE STRING "Accepted BIOS" FORCE)
-set(PSXRECOMP_BIOS_PROFILE "${PSXRECOMP_ROOT}/bios/SCPH5552.toml" CACHE FILEPATH "Accepted BIOS" FORCE)
+set(PSXRECOMP_BIOS_STEMS "SCPH1001" CACHE STRING "Accepted BIOS" FORCE)
+set(PSXRECOMP_BIOS_STEM "SCPH1001" CACHE STRING "Accepted BIOS" FORCE)
+set(PSXRECOMP_BIOS_PROFILE "${PSXRECOMP_ROOT}/bios/SCPH1001.toml" CACHE FILEPATH "Accepted BIOS" FORCE)
 include("${PSXRECOMP_ROOT}/runtime/runtime.cmake")
 
 psxrecomp_add_game_runtime(psx-runtime
@@ -36,8 +36,8 @@ psxrecomp_add_game_runtime(psx-runtime
     MAX_PLAYERS 1
 
 
-    GEN_MARKER "generated/SLES_013.70_dispatch.c"
-    GEN_FULL_GLOB "generated/SLES_013.70_full_*.c"
+    GEN_MARKER "generated/SLUS_005.94_dispatch.c"
+    GEN_FULL_GLOB "generated/SLUS_005.94_full_*.c"
     CODEGEN_SETUP_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/codegen_setup.c"
 )
 

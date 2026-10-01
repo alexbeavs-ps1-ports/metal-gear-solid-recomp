@@ -1,38 +1,38 @@
 
 [game]
 name = "Metal Gear Solid"
-id = "SLES-01370"
+id = "SLUS-00594"
 players = 1
-exe = "disc/SLES_013.70"
-disc = "disc/Metal Gear Solid (Europe) (Disc 1).cue"
+exe = "disc/SLUS_005.94"
+disc = "disc/Metal Gear Solid (USA) (Disc 1) (Rev 1).cue"
 load_address = "0x80010000"
-entry_pc = "0x80066A98"
-text_size = "0x00058800"
+entry_pc = "0x8009B9B0"
+text_size = "0x0009E800"
 stack_base = "0x801FFFF0"
-discs = ["disc/Metal Gear Solid (Europe) (Disc 1).cue", "disc/Metal Gear Solid (Europe) (Disc 2).cue"]
-disc_serials = ["SLES-01370", "SLES-11370"]
+discs = ["disc/Metal Gear Solid (USA) (Disc 1) (Rev 1).cue", "disc/Metal Gear Solid (USA) (Disc 2) (Rev 1).cue"]
+disc_serials = ["SLUS-00594", "SLUS-00776"]
 
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Metal Gear Solid (Europe) (Disc 1).bin"
-cue_name = "Metal Gear Solid (Europe) (Disc 1).cue"
-boot_exe = "SLES_013.70"
-known_sizes = [690577776, 718324320]
+bin_name = "Metal Gear Solid (USA) (Disc 1) (Rev 1).bin"
+cue_name = "Metal Gear Solid (USA) (Disc 1) (Rev 1).cue"
+boot_exe = "SLUS_005.94"
+known_sizes = [705614112, 731911824]
 known_md5 = [
-  "14f4ee17e61da6fed24569e409d1e6b7",
-  "68695af6a80a5f6549fde7280bbe9e32",
+  "e31ce17570897c323b7a539a2c616c72",
+  "d613f35103086eb3b4803469f73f6e59",
 ]
 known_sha1 = [
-  "d498a96150050e45681423d394de5ad36ba42497",
-  "ed25f748e4419bf2c68a496185537b966a942e1d",
+  "37498e6598ce4eabf00630b6a9197b20861e55a0",
+  "d6edfd60a375c10087eacebd709419950c8995ad",
 ]
 known_crc32 = [
-  "dc3b2b4c",
-  "43e3b465",
+  "21b5d15d",
+  "a3f02c87",
 ]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
@@ -51,9 +51,9 @@ default_mode = "digital"
 
 [netplay]
 required_disc_fps = [
-    "2b44984906ca277fc180674101da75ce489e415a0ee2bc1e6308e601ad60809e",
-    "41ffdce894a089d3e394b14e66769185c70eb319d2a95e890466fd8695afdaf2",
+    "f4964c524064c7f4c0f19ecaa885c90965590ea69090001f006f372072a65641",
+    "64b15f028c86dc609bb2cef141be0fa0cc71ccef6fdb9643ff60fd901fb9ffe2",
 ]
 require_cue = true
 required_tracks = 1
-required_disc_fp = "2b44984906ca277fc180674101da75ce489e415a0ee2bc1e6308e601ad60809e"
+required_disc_fp = "f4964c524064c7f4c0f19ecaa885c90965590ea69090001f006f372072a65641"

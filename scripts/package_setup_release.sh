@@ -86,8 +86,8 @@ exec bash "${PACKAGER}" \
   --recompiler-build "${RECOMPILER_BUILD}" \
   --version-env RELEASE_VERSION \
   --runtime-dir mods \
-  --disc-hint "Metal Gear Solid (Europe) (Disc 1).cue" \
-  --bios-hint "your own SCPH-5552 (Europe) BIOS dump (524288 bytes; SHA-256 1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09)" \
+  --disc-hint "Metal Gear Solid (USA) (Disc 1) (Rev 1).cue" \
+  --bios-hint "your own SCPH-1001 (USA) BIOS dump (524288 bytes; SHA-256 71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3)" \
   --project-file disc_identity.json \
   --project-file CMakeLists.txt \
   --project-file project-manifest.toml \

@@ -3,39 +3,39 @@
   "discs": [
     {
       "index": 1,
-      "cue_name": "Metal Gear Solid (Europe) (Disc 1).cue",
-      "bin_name": "Metal Gear Solid (Europe) (Disc 1).bin",
-      "size": 690577776,
-      "md5": "14f4ee17e61da6fed24569e409d1e6b7",
-      "sha1": "d498a96150050e45681423d394de5ad36ba42497",
-      "crc32": "dc3b2b4c",
+      "cue_name": "Metal Gear Solid (USA) (Disc 1) (Rev 1).cue",
+      "bin_name": "Metal Gear Solid (USA) (Disc 1) (Rev 1).bin",
+      "size": 705614112,
+      "md5": "e31ce17570897c323b7a539a2c616c72",
+      "sha1": "37498e6598ce4eabf00630b6a9197b20861e55a0",
+      "crc32": "21b5d15d",
       "track_count": 1,
       "tracks": [
         {
-          "name": "Metal Gear Solid (Europe) (Disc 1).bin",
-          "size": "690577776",
-          "crc": "dc3b2b4c",
-          "md5": "14f4ee17e61da6fed24569e409d1e6b7",
-          "sha1": "d498a96150050e45681423d394de5ad36ba42497"
+          "name": "Metal Gear Solid (USA) (Disc 1) (Rev 1).bin",
+          "size": "705614112",
+          "crc": "21b5d15d",
+          "md5": "e31ce17570897c323b7a539a2c616c72",
+          "sha1": "37498e6598ce4eabf00630b6a9197b20861e55a0"
         }
       ]
     },
     {
       "index": 2,
-      "cue_name": "Metal Gear Solid (Europe) (Disc 2).cue",
-      "bin_name": "Metal Gear Solid (Europe) (Disc 2).bin",
-      "size": 718324320,
-      "md5": "68695af6a80a5f6549fde7280bbe9e32",
-      "sha1": "ed25f748e4419bf2c68a496185537b966a942e1d",
-      "crc32": "43e3b465",
+      "cue_name": "Metal Gear Solid (USA) (Disc 2) (Rev 1).cue",
+      "bin_name": "Metal Gear Solid (USA) (Disc 2) (Rev 1).bin",
+      "size": 731911824,
+      "md5": "d613f35103086eb3b4803469f73f6e59",
+      "sha1": "d6edfd60a375c10087eacebd709419950c8995ad",
+      "crc32": "a3f02c87",
       "track_count": 1,
       "tracks": [
         {
-          "name": "Metal Gear Solid (Europe) (Disc 2).bin",
-          "size": "718324320",
-          "crc": "43e3b465",
-          "md5": "68695af6a80a5f6549fde7280bbe9e32",
-          "sha1": "ed25f748e4419bf2c68a496185537b966a942e1d"
+          "name": "Metal Gear Solid (USA) (Disc 2) (Rev 1).bin",
+          "size": "731911824",
+          "crc": "a3f02c87",
+          "md5": "d613f35103086eb3b4803469f73f6e59",
+          "sha1": "d6edfd60a375c10087eacebd709419950c8995ad"
         }
       ]
     }

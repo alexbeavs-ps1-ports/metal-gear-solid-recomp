@@ -3,11 +3,12 @@
 # Metal Gear Solid Recompiled
 
 This release candidate uses PSXRecomp and the shared recomp-ui launcher.
-You must supply your own SLES-01370 game disc and SCPH-5502/5552 Europe BIOS.
+You must supply your own Metal Gear Solid (USA) game discs (SLUS-00594 and SLUS-00776) and SCPH-1001 (USA) BIOS.
+The kit is made from the Redump dumps `Metal Gear Solid (USA) (Disc 1) (Rev 1)` and `Metal Gear Solid (USA) (Disc 2) (Rev 1)`.
 The package contains no game disc, retail BIOS, generated retail game code, or saved game.
 
 <!-- release-standard:bios -->
-**BIOS:** SCPH-5552 (Europe) retail BIOS, 524288 bytes, SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`. Supply your own dump; releases do not use OpenBIOS.
+**BIOS:** SCPH-1001 (USA) retail BIOS, 524288 bytes, SHA-256 `71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3`. Supply your own dump; releases do not use OpenBIOS.
 <!-- /release-standard:bios -->
 
 ## Setup
@@ -20,7 +21,7 @@ The package contains no game disc, retail BIOS, generated retail game code, or s
 On Windows, the setup wizard can download the portable build tools.
 On Linux and macOS, install CMake, Ninja, Python 3, and a C/C++ compiler first.
 Keep the CUE and all files it references together.
-The BIOS must be 524288 bytes with SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`.
+The BIOS must be 524288 bytes with SHA-256 `71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3`.
 
 ## Candidate status
 

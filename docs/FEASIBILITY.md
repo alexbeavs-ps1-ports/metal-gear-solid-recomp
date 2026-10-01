@@ -8,3 +8,7 @@ Framework provenance is recorded in [the project manifest](../project-manifest.t
 The four-platform workflow builds setup hosts and generators without retail inputs.
 First-run setup, gameplay, save/load, and native Linux/macOS acceptance remain separate checks.
 No quality graduation or complete-game claim is made here.
+
+2026-10-01: This kit now targets the USA release (SLUS-00594 and SLUS-00776, SCPH-1001 BIOS).
+The acceptance and the preserved configuration described above belong to the European build (SLES-01370).
+The USA target has a new first-pass seed list. It has not been built or run, so no acceptance carries over.

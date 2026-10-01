@@ -1,8 +1,8 @@
 [project]
 name = "Metal Gear Solid"
 slug = "metal-gear-solid"
-retail_id = "SLES-01370"
-region = "Europe"
+retail_id = "SLUS-00594"
+region = "USA"
 implementation_state = "release_candidate_prepared"
 
 [release]
@@ -19,9 +19,9 @@ accepted_private_commit = "63446a28111a21a0cb7e8b5106c3614c898fc4b5"
 
 [bios]
 required = true
-profile = "SCPH5552"
+profile = "SCPH1001"
 size = 524288
-sha256 = "1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09"
+sha256 = "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
 
 [validation]
 windows_package = "not_run"
@@ -30,4 +30,9 @@ macos_gameplay = "not_run"
 
 [retail_identity]
 disc_count = 2
-serials = ["SLES-01370", "SLES-11370"]
+serials = ["SLUS-00594", "SLUS-00776"]
+executable_paths = ["SLUS_005.94", "SLUS_007.76"]
+executable_sha256 = "615e136083336957ed0b9b3805145bf5bbb35f7a16c2f160dba8f17bb71cc640"
+load_address = "0x80010000"
+entry_point = "0x8009B9B0"
+program_model = "continuation"
