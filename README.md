@@ -25,7 +25,9 @@ The BIOS must be 524288 bytes with SHA-256 `71af94d1e47a68c11e8fdb9f836804060151
 
 ## Candidate status
 
-Version 0.1.0 is being prepared for September 7, 2026.
+This kit targets the USA release (SLUS-00594 and SLUS-00776) since October 1, 2026.
+The USA target has not been built or run, and no version of it is released.
+Versions 0.1.0 and 0.1.1 were candidates for the European release (SLES-01370 and SLES-11370); their checks do not carry over.
 Package setup and gameplay acceptance are pending; native build checks do not establish gameplay support.
 The exact source and dependency identities are in [project-manifest.toml](project-manifest.toml).
 See [feasibility and validation](docs/FEASIBILITY.md) for the tested scope.

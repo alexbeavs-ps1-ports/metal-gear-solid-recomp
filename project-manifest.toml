@@ -3,13 +3,19 @@ name = "Metal Gear Solid"
 slug = "metal-gear-solid"
 retail_id = "SLUS-00594"
 region = "USA"
+# The USA target was set on 2026-10-01 and has not been built or run. The
+# state ladder has no rung below a prepared candidate, so the value stays; it,
+# the [release] table and the [framework] identities describe the candidate
+# that was prepared for the European release (SLES-01370 and SLES-11370).
 implementation_state = "release_candidate_prepared"
 
+# The European candidate's version and date. No USA version exists yet.
 [release]
 version = "0.1.1"
 status = "candidate"
 target_date = "2026-09-15"
 
+# The framework identities the European candidate was prepared from.
 [framework]
 repository = "https://github.com/Alexbeav/psxrecomp"
 commit = "a839474e2941cdc44488ace4d53584e6a485ea41"
